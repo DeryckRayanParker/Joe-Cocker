@@ -1,9 +1,9 @@
 import stanford.karel.*;
 
-private class HW3First extends SuperKarel{
+public class HW3First extends SuperKarel{
 
 	public void run(){
-		if (notFacingNorth()){
+		while (notFacingNorth()){
 		if (frontIsClear()){
 		
 			if(noBeepersPresent()){
